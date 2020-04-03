@@ -6,6 +6,7 @@ import exc9
 import exc11
 import exc13
 import exc16
+import exc19
 data = pd.read_csv("DataBase.csv", header=None)
 
 def random_exc(n):
@@ -22,4 +23,6 @@ def random_exc(n):
     elif n == 13:
         return exc13.text(concrete_str.tolist())
     elif n == 16:
-        return exc16.text(concrete_str.tolist())  # Для второго (и так далее)
+        return exc16.text(concrete_str.tolist())
+    elif n == 19:
+        return exc19.text(concrete_str.tolist())
