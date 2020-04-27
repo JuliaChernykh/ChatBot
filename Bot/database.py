@@ -2,6 +2,8 @@ import pandas as pd
 import random
 import exc1
 import exc2
+import exc5
+import exc6
 import exc9
 import exc11
 import exc13
@@ -16,6 +18,10 @@ def random_exc(n):
         return exc1.text(concrete_str.tolist())  # Вызываем функцию для первого задания
     elif n == 2:
         return exc2.text(concrete_str.tolist())
+    elif n == 5:
+        return exc5.text(concrete_str.tolist())
+    elif n == 6:
+        return exc6.text(concrete_str.tolist())
     elif n == 9:
         return exc9.text(concrete_str.tolist())
     elif n == 11:
